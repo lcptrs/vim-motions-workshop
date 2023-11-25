@@ -19,5 +19,18 @@
         - why is this default?
     - `v` [v]isual mode
         - [v]isually selecting code and do stuff on this
-5. The fun part: Vim Motions
-    - 
+5. The fun part: Vim Motions \
+   *hints*: 
+   - All motions are meant for the normal mode and  are **case-sensitive** and are the exact keystrokes!
+   - Motions can be combined to create a command, e.g. with:
+        - `Editing[Multiplier]Movement`
+        - `[Multiplier](Editing|Movement)`
+
+   1. Movements 
+       - `h` `j` `k` `l`: should be used instead arrow keys ← ↓ ↑ →
+       - `w`: move to beginning of next [w]ord
+       - `W`: move to beginning of next [W]ord ignoring punctuation \
+       `this.callSomeMethod("something")` is considered a Word and `this.somethingElse("Hello", "Mom")` is considered two words due to the space
+
+   2. Editing
+      - `x` `X`: delete under cursor (~Del key) or delete before cursor (~Backspace key)
