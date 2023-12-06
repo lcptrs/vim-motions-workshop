@@ -35,7 +35,10 @@ VIM Emulators: It's about the motions, not Vim!
    `this.callSomeMethod("something")` is considered a Word and `this.somethingElse("Hello", "Mom")` is considered two words due to the space
    - `f` `F`: [f]ind next (or previous with `F`) occurence of something e.g. `fe` jumps to next `e` character
    - `t` `T`: same as `f` but un[t]il the next occurence, e.g. cursor will be before the searched character instead of on it
-   - `*`: find next occurence of word
+   - `*`: search for next occurence of word
+   - `/`: text search
+   - `n` `N`: go to [n]ext match of search or previous with [N]
+
 
 ### 5.2 Editing
   - `x` `X`: delete under cursor (~Del key) or delete before cursor (~Backspace key)
